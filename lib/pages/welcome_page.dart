@@ -46,7 +46,8 @@ class _WelcomePageState extends State<WelcomePage> {
                         Container(
                           width: 250,
                           child: AppText(
-                            text: "text",
+                            text:
+                                "Mountain hikes give you an incredible sense of freedom along with endurance test",
                           ),
                         ),
                       ],
