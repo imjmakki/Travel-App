@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:travel/misc/colors.dart';
 import 'package:travel/widgets/app_large_text.dart';
 import 'package:travel/widgets/app_text.dart';
 
@@ -48,6 +49,7 @@ class _WelcomePageState extends State<WelcomePage> {
                           child: AppText(
                             text:
                                 "Mountain hikes give you an incredible sense of freedom along with endurance test",
+                            color: AppColors.textColor2,
                           ),
                         ),
                       ],
