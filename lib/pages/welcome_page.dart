@@ -50,6 +50,7 @@ class _WelcomePageState extends State<WelcomePage> {
                             text:
                                 "Mountain hikes give you an incredible sense of freedom along with endurance test",
                             color: AppColors.textColor2,
+                            size: 14,
                           ),
                         ),
                       ],
