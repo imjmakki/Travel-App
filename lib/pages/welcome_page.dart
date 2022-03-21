@@ -15,7 +15,9 @@ class _WelcomePageState extends State<WelcomePage> {
           scrollDirection: Axis.vertical,
           itemCount: 3,
           itemBuilder: (_, index) {
-            return Container();
+            return Container(
+              width: double.maxFinite,
+            );
           }),
     );
   }
