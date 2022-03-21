@@ -11,7 +11,8 @@ class _WelcomePageState extends State<WelcomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: PageView.builder(itemBuilder: (_, index) {}),
+      body: PageView.builder(
+          scrollDirection: Axis.vertical, itemBuilder: (_, index) {}),
     );
   }
 }
