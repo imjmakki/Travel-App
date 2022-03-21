@@ -10,6 +10,9 @@ class AppLargeText extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text();
+    return Text(
+      text,
+      style: TextStyle(),
+    );
   }
 }
