@@ -4,7 +4,9 @@ class AppLargeText extends StatelessWidget {
   int size;
   final String text;
   final Color color;
-  const AppLargeText({Key? key}) : super(key: key);
+  AppLargeText(
+      {Key? key, required this.size, required this.text, required this.color})
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {
