@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class AppLargeText extends StatelessWidget {
-  int size;
+  double size;
   final String text;
   final Color color;
   AppLargeText(
