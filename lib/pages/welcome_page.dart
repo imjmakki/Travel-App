@@ -43,7 +43,10 @@ class _WelcomePageState extends State<WelcomePage> {
                           text: "Mountain",
                           size: 30,
                         ),
-                        Container(),
+                        Container(
+                          width: 250,
+                          child: ,
+                        ),
                       ],
                     ),
                   ],
