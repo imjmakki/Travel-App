@@ -44,7 +44,9 @@ class _WelcomePageState extends State<WelcomePage> {
                           text: "Mountain",
                           size: 30,
                         ),
-                        SizedBox(),
+                        SizedBox(
+                          height: 20,
+                        ),
                         Container(
                           width: 250,
                           child: AppText(
