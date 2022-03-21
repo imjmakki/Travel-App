@@ -24,7 +24,9 @@ class _WelcomePageState extends State<WelcomePage> {
               width: double.maxFinite,
               height: double.maxFinite,
               decoration: BoxDecoration(
-                image: AssetImage("images/"),
+                image: DecorationImage(
+                  image: AssetImage("images/" + images[index]),
+                ),
               ),
             );
           }),
