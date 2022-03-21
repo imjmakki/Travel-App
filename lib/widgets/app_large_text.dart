@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 class AppLargeText extends StatelessWidget {
   int size;
   final String text;
@@ -6,6 +8,6 @@ class AppLargeText extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Text();
   }
 }
