@@ -11,7 +11,7 @@ class _WelcomePageState extends State<WelcomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: ,
+      body: PageView.builder(itemBuilder: itemBuilder),
     );
   }
 }
