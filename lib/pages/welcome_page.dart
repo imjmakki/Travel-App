@@ -29,6 +29,7 @@ class _WelcomePageState extends State<WelcomePage> {
                   fit: BoxFit.cover,
                 ),
               ),
+              child: Container(),
             );
           }),
     );
