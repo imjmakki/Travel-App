@@ -12,7 +12,9 @@ class _WelcomePageState extends State<WelcomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: PageView.builder(
-          scrollDirection: Axis.vertical, itemBuilder: (_, index) {}),
+          scrollDirection: Axis.vertical,
+          itemCount: 3,
+          itemBuilder: (_, index) {}),
     );
   }
 }
