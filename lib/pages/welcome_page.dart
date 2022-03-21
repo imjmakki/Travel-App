@@ -14,7 +14,11 @@ class _WelcomePageState extends State<WelcomePage> {
       body: PageView.builder(
           scrollDirection: Axis.vertical,
           itemCount: 3,
-          itemBuilder: (_, index) {}),
+          itemBuilder: (_, index) {
+            return Container(
+
+            ),
+          }),
     );
   }
 }
