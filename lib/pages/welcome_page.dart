@@ -45,7 +45,9 @@ class _WelcomePageState extends State<WelcomePage> {
                         ),
                         Container(
                           width: 250,
-                          child: ,
+                          child: AppText(
+                            text: "text",
+                          ),
                         ),
                       ],
                     ),
