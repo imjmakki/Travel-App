@@ -18,7 +18,7 @@ class _WelcomePageState extends State<WelcomePage> {
     return Scaffold(
       body: PageView.builder(
           scrollDirection: Axis.vertical,
-          itemCount: 3,
+          itemCount: images.length,
           itemBuilder: (_, index) {
             return Container(
               width: double.maxFinite,
