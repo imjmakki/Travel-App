@@ -37,6 +37,10 @@ class _WelcomePageState extends State<WelcomePage> {
                     Column(
                       children: [
                         AppLargeText(text: "Trips"),
+                        AppLargeText(
+                          text: "Discover",
+                          color: Colors.red,
+                        ),
                       ],
                     ),
                   ],
