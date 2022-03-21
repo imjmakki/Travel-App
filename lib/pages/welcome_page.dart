@@ -8,6 +8,11 @@ class WelcomePage extends StatefulWidget {
 }
 
 class _WelcomePageState extends State<WelcomePage> {
+  List images = [
+    "welcome-one.png",
+    "welcome-two.png",
+    "welcome-three.png",
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -18,6 +23,9 @@ class _WelcomePageState extends State<WelcomePage> {
             return Container(
               width: double.maxFinite,
               height: double.maxFinite,
+              decoration: BoxDecoration(
+                image: AssetImage("images/"),
+              ),
             );
           }),
     );
