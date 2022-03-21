@@ -17,6 +17,7 @@ class _WelcomePageState extends State<WelcomePage> {
           itemBuilder: (_, index) {
             return Container(
               width: double.maxFinite,
+              height: double.maxFinite,
             );
           }),
     );
