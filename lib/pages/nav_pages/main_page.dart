@@ -11,7 +11,7 @@ class Main extends StatelessWidget {
     Search(),
     My(),
   ];
-  void onTap() {}
+  void onTap(int index) {}
   @override
   Widget build(BuildContext context) {
     return Scaffold(
