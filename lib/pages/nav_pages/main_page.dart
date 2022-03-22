@@ -16,6 +16,7 @@ class Main extends StatelessWidget {
     return Scaffold(
       body: pages[0],
       bottomNavigationBar: BottomNavigationBar(
+        selectedItemColor: Colors.black54,
         items: [
           BottomNavigationBarItem(label: "Home", icon: Icon(Icons.apps)),
           BottomNavigationBarItem(
