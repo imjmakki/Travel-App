@@ -17,6 +17,7 @@ class Main extends StatelessWidget {
     return Scaffold(
       body: pages[0],
       bottomNavigationBar: BottomNavigationBar(
+        currentIndex: 0,
         selectedItemColor: Colors.black54,
         unselectedItemColor: Colors.grey.withOpacity(0.5),
         showUnselectedLabels: false,
