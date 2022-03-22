@@ -17,6 +17,7 @@ class Main extends StatelessWidget {
       body: pages[0],
       bottomNavigationBar: BottomNavigationBar(
         selectedItemColor: Colors.black54,
+        unselectedItemColor: Colors.grey,
         items: [
           BottomNavigationBarItem(label: "Home", icon: Icon(Icons.apps)),
           BottomNavigationBarItem(
