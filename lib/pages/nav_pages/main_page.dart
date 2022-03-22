@@ -19,7 +19,7 @@ class Main extends StatelessWidget {
         selectedItemColor: Colors.black54,
         unselectedItemColor: Colors.grey.withOpacity(0.5),
         showUnselectedLabels: false,
-        showSelectedLabels: true,
+        showSelectedLabels: false,
         items: [
           BottomNavigationBarItem(label: "Home", icon: Icon(Icons.apps)),
           BottomNavigationBarItem(
