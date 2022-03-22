@@ -20,10 +20,8 @@ class Main extends StatelessWidget {
           BottomNavigationBarItem(label: "Home", icon: Icon(Icons.apps)),
           BottomNavigationBarItem(
               label: "Bar", icon: Icon(Icons.bar_chart_sharp)),
-          BottomNavigationBarItem(
-              label: "Search", icon: Icon(Icons.search)),
-          BottomNavigationBarItem(
-              label: "Profile", icon: Icon(Icons.person)),
+          BottomNavigationBarItem(label: "Search", icon: Icon(Icons.search)),
+          BottomNavigationBarItem(label: "Profile", icon: Icon(Icons.person)),
         ],
       ),
     );
