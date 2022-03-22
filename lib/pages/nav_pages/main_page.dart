@@ -17,13 +17,13 @@ class Main extends StatelessWidget {
       body: pages[0],
       bottomNavigationBar: BottomNavigationBar(
         items: [
-          BottomNavigationBarItem(title: Text("Home"), icon: Icon(Icons.apps)),
+          BottomNavigationBarItem(label: "Home", icon: Icon(Icons.apps)),
           BottomNavigationBarItem(
-              title: Text("Bar"), icon: Icon(Icons.bar_chart_sharp)),
+              label: "Bar", icon: Icon(Icons.bar_chart_sharp)),
           BottomNavigationBarItem(
-              title: Text("Search"), icon: Icon(Icons.search)),
+              label: "Search", icon: Icon(Icons.search)),
           BottomNavigationBarItem(
-              title: Text("Profile"), icon: Icon(Icons.person)),
+              label: "Profile", icon: Icon(Icons.person)),
         ],
       ),
     );
